@@ -1,0 +1,8 @@
+[user]
+	name = Dmitrij
+	email = 3024338+iamdmitrij@users.noreply.github.com
+	signingkey = 3236D3128A001E48
+[core]
+	ignorecase = false
+[commit]
+	gpgsign = true
