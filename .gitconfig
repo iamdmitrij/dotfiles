@@ -1,8 +1,17 @@
 [user]
-	name = Dmitrij
-	email = 3024338+iamdmitrij@users.noreply.github.com
-	signingkey = 3236D3128A001E48
+    name = Dmitrij
+    email = 3024338+iamdmitrij@users.noreply.github.com
+    signingkey = 3236D3128A001E48
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
 [core]
-	ignorecase = false
+    editor = code --wait
+    ignorecase = false
 [commit]
-	gpgsign = true
+    gpgsign = true
